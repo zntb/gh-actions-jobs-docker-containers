@@ -1,4 +1,4 @@
-FROM node:23.3.0-bookworm-slim
+FROM node:23.3.0-alpine3.19
 
 ENV MONGODB_CONNECTION_PROTOCOL mongodb+srv
 ENV MONGODB_DB_NAME gha-demo1
